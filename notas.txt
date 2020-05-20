@@ -1,0 +1,6 @@
+Ideas para el trabajo:
+
+- Bases de datos (peces, bichos, muebles, ropa), con sus imágenes, filtros de búsqueda y ordenar por nombre, dinero etc
+- Calendario de eventos (buscar librería o hacer con Ionic)
+- Back-end: chat y sección de comentarios
+- Guías con Ratings (?)
