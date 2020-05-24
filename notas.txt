@@ -4,3 +4,4 @@ Ideas para el trabajo:
 - Calendario de eventos (buscar librería o hacer con Ionic)
 - Back-end: chat y sección de comentarios
 - Guías con Ratings (?)
+- Panel de tareas para que los usuarios puedan anotar recetas que necesiten, materiales, asi como componentes necesarios para poder llevarlas a cabo.
