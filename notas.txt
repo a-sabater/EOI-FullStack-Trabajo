@@ -1,7 +1,7 @@
 Ideas para el trabajo:
-
-- Bases de datos (peces, bichos, muebles, ropa), con sus imágenes, filtros de búsqueda y ordenar por nombre, dinero etc
+ 
+** ORGANIZADOR DE ACNH:
+- Notebook de coleccionables (peces, bichos) con checkboxes, con sus imágenes, filtros de búsqueda y ordenar por nombre, dinero etc
 - Calendario de eventos (buscar librería o hacer con Ionic)
 - Back-end: chat y sección de comentarios
-- Guías con Ratings (?)
 - Panel de tareas para que los usuarios puedan anotar recetas que necesiten, materiales, asi como componentes necesarios para poder llevarlas a cabo.
