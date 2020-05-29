@@ -12,3 +12,4 @@ Ideas para el trabajo:
 RECURSOS:
 - Check list:
 https://forum.ionicframework.com/t/ion-checkbox-inside-ion-list/63710/3
+https://stackoverflow.com/questions/21997707/how-to-add-class-to-radio-button-and-checkboxes-in-angular-if-checked-or-selecte
