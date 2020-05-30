@@ -7,6 +7,10 @@ Ideas para el trabajo:
 - Panel de tareas para que los usuarios puedan anotar recetas que necesiten, materiales, asi como componentes necesarios para poder llevarlas a cabo.
 
 
+** AVANZADO
+- Widget de twitter
+- Sección de comentarios
+
 
 
 RECURSOS:
