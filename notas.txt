@@ -6,6 +6,11 @@ Ideas para el trabajo:
 - Back-end: chat y sección de comentarios
 - Panel de tareas para que los usuarios puedan anotar recetas que necesiten, materiales, asi como componentes necesarios para poder llevarlas a cabo.
 
+** BACK-END:
+https://www.baeldung.com/spring-rest-openapi-documentation
+Spring jwt: https://github.com/sebascastillo89/jwtDemo
+
+
 
 ** AVANZADO
 - Widget de twitter
