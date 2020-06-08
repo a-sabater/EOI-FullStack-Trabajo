@@ -1,25 +1,10 @@
 Ideas para el trabajo:
  
-** ORGANIZADOR DE ACNH:
-- Notebook de coleccionables (peces, bichos) con checkboxes, con sus imágenes, filtros de búsqueda y ordenar por nombre, dinero etc
-- Calendario de eventos (buscar librería o hacer con Ionic)
-- Back-end: chat y sección de comentarios
-- Panel de tareas para que los usuarios puedan anotar recetas que necesiten, materiales, asi como componentes necesarios para poder llevarlas a cabo.
+Instagram AC:
+- Usuarios pueden subir fotos con título y descripción, y se añade la fecha de subida.
+- Esas fotos se muestran como cards, organizadas por fecha de subida.
+- Tenemos una caja de búsqueda para título y descripción.
+- 
 
-** BACK-END:
-https://www.baeldung.com/spring-rest-openapi-documentation
-Spring jwt: https://github.com/sebascastillo89/jwtDemo
-
-
-
-** AVANZADO
-- Widget de twitter
-- Sección de comentarios
-
-
-
-RECURSOS:
-- Check list:
-https://forum.ionicframework.com/t/ion-checkbox-inside-ion-list/63710/3
-https://stackoverflow.com/questions/21997707/how-to-add-class-to-radio-button-and-checkboxes-in-angular-if-checked-or-selecte
-https://scotch.io/tutorials/how-to-deal-with-different-form-controls-in-angular-2
+Avanzado
+- Al hacer click en un usuario, te redirige a usuario-detail donde aparecen las fotos filtradas por usuario.
