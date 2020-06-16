@@ -1,0 +1,28 @@
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="apptitulo">Editar Imagen</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label class="imagentitulo">Título:</ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.titulo"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">Descripción:</ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.descripcion"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">Etiquetas:</ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.tags"></ion-input>
+    </ion-item>
+  </ion-list>
+  <ion-button class="imagenboton" (click)="actualizarImagen()" expand="block">Actualizar</ion-button>
+</ion-content>

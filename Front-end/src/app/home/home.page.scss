@@ -1,0 +1,90 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#imagentitulo{
+  font-family: 'Kalam', cursive;
+  font-size: 1em;
+}
+
+#imagendescripcion{
+  font-size: 1em;
+}
+
+#imagenusuario{
+  font-family: 'Caveat', cursive;
+  font-size: 1em;
+}
+
+#imagenfecha{
+  font-family: 'Caveat', cursive;
+  font-size: 1em;
+}
+#imagentag{
+  font-family: 'Kalam', cursive;
+  font-size: 1em;
+}
+
+#botonesnav{
+  font-weight: 700;
+  font-size: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#menunav{
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#apptitulo{
+  font-family: 'Sriracha', cursive;
+  font-size: 2em;
+}
+
+#menunav{
+  background-color: lightsteelblue;
+  padding: 1em;
+}
+@import url(../theme.scss);
+
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+p,
+ion-card-subtitle,
+ion-card-title,
+ion-label,
+ion-item,
+ion-title,
+ion-searchbar,
+ion-buttons,
+button {
+  color: var(--darkToLight) !important;
+}

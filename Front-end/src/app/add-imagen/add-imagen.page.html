@@ -1,0 +1,41 @@
+<link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400&display=swap" rel="stylesheet">
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title id="apptitulo">Subir Imagen</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-list>
+    <ion-item>
+      <ion-label class="imagentitulo">Usuario:  </ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.usuario" required="true" minlength="5" maxlength="20"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">Título:   </ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.titulo" required="true" minlength="5" maxlength="20"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">ImagenUrl:  </ion-label>
+      <ion-input type="file" (change)="changeImage($event)"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">Descripción:  </ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.descripcion" required="false"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label class="imagentitulo">Etiquetas:  </ion-label>
+      <ion-input type="text" [(ngModel)]="imagen.tags" required="false"></ion-input>
+    </ion-item>
+  </ion-list>
+  <img [src]="imagen.imagenUrl" *ngIf="imagen.imagenUrl !=''"/>
+  <ion-button class="imagenboton" (click)="enviarImagen()" expand="block">Añadir esta Imagen</ion-button>
+ 
+</ion-content>

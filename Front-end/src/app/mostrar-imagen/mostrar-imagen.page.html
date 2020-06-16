@@ -1,0 +1,29 @@
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet">
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Imagen</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card mode="ios">
+    <ion-card-header>
+      <ion-card-title id="imagentitulo">{{imagen.titulo | uppercase}}</ion-card-title>
+      <ion-card-subtitle id="imagenusuario">{{imagen.usuario}}</ion-card-subtitle>
+    </ion-card-header>
+      <img src="{{imagen.imagenUrl}}"/>
+      <ion-card-content id="imagendescripcion">{{imagen.descripcion}}</ion-card-content>
+      <ion-card-subtitle id="imagenfecha">{{imagen.createAt | date: 'dd/MM/yyyy'}}</ion-card-subtitle>
+      <ion-card-subtitle id="imagentag">Etiquetas: {{imagen.tags}}</ion-card-subtitle>
+      <ion-button
+              [routerLink]="['/actualizar-imagen', {id:imagen.id, titulo:imagen.titulo, usuario:imagen.usuario,imagenUrl:imagen.imagenUrl, descripcion:imagen.descripcion,createAt:imagen.createAt }]">
+              Editar</ion-button>
+              <ion-button (click)="deleteImagen(imagen.id)" color="danger">Borrar</ion-button>
+  </ion-card>
+
+</ion-content>

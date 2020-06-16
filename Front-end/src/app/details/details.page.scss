@@ -1,0 +1,38 @@
+#apptitulo{
+    font-family: 'Sriracha', cursive;
+    font-size: 2.2em;
+}
+
+.autor{
+    font-family: 'Raleway', sans-serif;
+}
+
+#definicion{
+    font-size: 1.4em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#definicion2{
+    font-size: 1.4em;
+    font-style: italic;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#definicion3{
+    font-size: 1.2em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#definicion4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+p,
+ion-card-subtitle,
+ion-card-title,
+ion-label,
+ion-item,
+ion-title,
+ion-textarea,
+button {
+  color: var(--darkToLight) !important;
+}

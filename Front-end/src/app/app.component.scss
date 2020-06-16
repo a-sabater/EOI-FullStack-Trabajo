@@ -1,0 +1,20 @@
+@import url(./theme.scss);
+p,
+ion-label,
+ion-item,
+ion-icon,
+ion-title,
+button {
+  color: var(--darkToLight) !important;
+}
+#botonesnav{
+  font-weight: 700;
+  font-size: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#menunav{
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: 'Josefin Sans', sans-serif;
+}

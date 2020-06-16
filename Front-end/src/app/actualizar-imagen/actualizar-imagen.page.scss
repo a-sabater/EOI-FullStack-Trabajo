@@ -1,0 +1,27 @@
+#apptitulo{
+    font-family: 'Sriracha', cursive;
+    font-size: 2.2em;
+}
+.imagentitulo, ion-input{
+    font-family: 'Kalam', cursive;
+    font-size:1.2em;
+    font-weight: 400;
+  }
+ion-input{
+    font-size:1.2em;
+    font-weight: 300;
+}
+
+.imagenboton{
+    font-family: 'Kalam', cursive;
+    font-size: 1.2em;
+}
+p,
+ion-card-subtitle,
+ion-card-title,
+ion-label,
+ion-item,
+ion-title,
+button {
+  color: var(--darkToLight) !important;
+}

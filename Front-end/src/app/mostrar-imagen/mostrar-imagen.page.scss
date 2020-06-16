@@ -1,0 +1,32 @@
+#imagentitulo{
+    font-family: 'Kalam', cursive;
+  }
+  
+  #imagendescripcion{
+    font-size: 1.7em;
+  }
+  
+  #imagenusuario{
+    font-family: 'Caveat', cursive;
+    font-size: 1.6em;
+  }
+  
+  #imagenfecha{
+    font-family: 'Caveat', cursive;
+    font-size: 1.2em;
+  }
+
+  #imagentag{
+    font-family: 'Kalam', cursive;
+    font-size: 1em;
+  }
+  
+  p,
+ion-card-subtitle,
+ion-card-title,
+ion-label,
+ion-item,
+ion-title,
+button {
+  color: var(--darkToLight) !important;
+}

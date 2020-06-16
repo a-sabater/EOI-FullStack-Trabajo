@@ -1,0 +1,23 @@
+<ion-app>
+  <ion-split-pane disabled="true"contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title id="menunav">Menú</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list><ion-item id="botonesnav" [routerLink]="['/add-imagen']">Subir Imagen</ion-item>
+          <ion-item id="botonesnav" [routerLink]="['/details']">Acerca de</ion-item>
+          <ion-item (click)="ThemeSwitcher()">
+            <ion-icon slot="start" name="bulb"></ion-icon>
+            <ion-label id="botonesnav">
+              Dark/Light Mode
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>
