@@ -1,10 +1,1 @@
-Ideas para el trabajo:
- 
-Instagram:
-- Usuarios pueden subir fotos con título y descripción, y se añade la fecha de subida.
-- Esas fotos se muestran como cards, organizadas por fecha de subida.
-- Tenemos una caja de búsqueda para título y descripción.
-- 
 
-Avanzado
-- Al hacer click en un usuario, te redirige a usuario-detail donde aparecen las fotos filtradas por usuario.
